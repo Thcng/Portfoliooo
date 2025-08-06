@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+.left {
+  flex: 2; /* chia đều mỗi bên 50% */
+  padding: 20px;
+}
+
+.right {
+  flex: 8;
+  padding: 20px;
+}
+.left {
+  background-color: #27408b;
+}
+
+.right {
+  background-color: #1c1c1c;
+}
+
+.user {
+  color: #ffffff;
+}
+
+.contact-info, .carrer-goal {
+  background: #00ffff;
+  padding: 20px;''
+  max-width: 400px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  
+  box-shadow: 0px 0px 10px #8ee5ee;
+}
+
+.contact-info p{
+  color: #000000;
+}
+
+.contact-info i {
+  color: #00868b;
+  margin-right: 8px;
+}
+
+.contact-info a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.contact-info h2{
+  color: #008b8b
+}
+
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.carrer-goal h2 {
+  color: #008b8b;
+}
+
+.education {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 500px;
+  font-family: "Segoe UI", san-serif;
+}
+
+.education h2{
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.education i{
+  color: #2980b9;
+  margin-right: 8px;
+}
+
+.education p{
+  font-size: 16px;
+  line-height: 1.5;align-content: 
+  
+}
+
+.education, .experience {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 600px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 6px #8ee5ee
+}
+
+.education h2, .experience h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.education i, .experience i {
+  color: #2980b9;
+  margin-right: 8px;
+}
+
+.education p, .experience p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-left: 10px;
+}
+
+.skills {
+  background-color: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 600px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-bottom: 20px;
+  
+  box-shadow: 0px 0px 6px #8ee5ee
+}
+
+.skills h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.skills i {
+  color: #2980b9;
+  margin-right: 8px;
+}
+
+.skills ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.skills li {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
